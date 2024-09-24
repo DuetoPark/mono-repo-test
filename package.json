@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
     "@storybook/react-webpack5": "^8.3.2",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^5.14.1",
@@ -24,10 +26,11 @@
     "web-vitals": "^2.1.0"
   },
   "workspaces": [
-    "services/*"
+    "packages/design-system"
   ],
   "scripts": {
-    "design-system": "yarn workspace design-system"
+    "build": "react-scripts build",
+    "design-system": "yarn workspace @packages/design-system"
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +50,9 @@
       "last 1 safari version"
     ]
   },
-  "packageManager": "yarn@4.5.0"
+  "packageManager": "yarn@4.5.0",
+  "devDependencies": {
+    "@types/babel__core": "^7",
+    "@types/babel__preset-env": "^7"
+  }
 }
