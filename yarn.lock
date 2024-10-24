@@ -9176,9 +9176,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"design-system@workspace:packages/design-system":
+"design-system@workspace:services/design-system":
   version: 0.0.0-use.local
-  resolution: "design-system@workspace:packages/design-system"
+  resolution: "design-system@workspace:services/design-system"
   dependencies:
     "@babel/core": "npm:^7.25.9"
     "@babel/preset-env": "npm:^7.25.9"
@@ -13681,6 +13681,7 @@ __metadata:
     "@types/react-dom": "npm:^18.0.0"
     "@typescript-eslint/eslint-plugin": "npm:^8.6.0"
     "@typescript-eslint/parser": "npm:^8.6.0"
+    color-convert: "npm:^2.0.1"
     eslint: "npm:^8.57.0"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"

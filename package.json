@@ -16,6 +16,7 @@
     "@types/react-dom": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^8.6.0",
     "@typescript-eslint/parser": "^8.6.0",
+    "color-convert": "^2.0.1",
     "eslint": "^8.57.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -26,8 +27,8 @@
     "web-vitals": "^2.1.0"
   },
   "workspaces": [
-    "packages/design-system",
-    "packages/wanted-pre-onboarding-challenge-fe-27"
+    "services/design-system",
+    "services/wanted-pre-onboarding-challenge-fe-27"
   ],
   "scripts": {
     "build": "react-scripts build",
